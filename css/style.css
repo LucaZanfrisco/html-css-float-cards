@@ -36,9 +36,9 @@ main{
 }
 
 .box{
-    width: calc(100%/3 - 20px);
+    width: calc(100%/3 - 30px);
     float: left;
-    margin: 0 20px 40px 0;
+    margin: 0 30px 50px 0;
     background-color: #0f0e17;
     box-shadow: 5px 5px 5px #cececd;
 }
@@ -54,7 +54,7 @@ main{
 }
 .box-text{
     color: white;
-    padding: 15px;
+    margin: 15px 0 0;
 }
 .box .box-text div{
     margin-bottom: 10px;
