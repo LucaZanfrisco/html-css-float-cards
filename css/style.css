@@ -2,33 +2,71 @@
 -------------------
 Default Style
 */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 .clearfix::after{
     content: '';
     display: block;
     clear: both;
 }
-
 body{
     font-family: 'Fredoka One', cursive;;
 }
-
 /*
 -------------------
 */
 
 .container{
     max-width: 70%;
-    text-align: center;
     margin: 0 auto;
 }
 #title{
     color: #e53170;
     padding: 30px;
+}
+header.container {
+    text-align: center;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.box{
+    width: calc(100%/3 - 20px);
+    float: left;
+    margin: 0 20px 40px 0;
+    background-color: #0f0e17;
+    box-shadow: 5px 5px 5px #cececd;
+}
+.box-img{
+    width: 40%;
+    float: left;
+    padding-right: 20px;
+}
+
+.img{
+    width: 100%;
+    display: block;
+}
+.box-text{
+    color: white;
+    padding: 15px;
+}
+.box .box-text div{
+    margin-bottom: 10px;
+}
+.name{
+    font-weight: bolder;
+}
+.job{
+    font-size: smaller;
+}
+.contact{
+    color: #75bcb6;
+    text-decoration: none;
+    font-size: smaller;
 }
