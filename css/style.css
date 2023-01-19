@@ -19,6 +19,7 @@ body{
 -------------------
 */
 
+/* inizio style header  */
 .container{
     max-width: 70%;
     margin: 0 auto;
@@ -30,11 +31,13 @@ body{
 header.container {
     text-align: center;
 }
+/* fine style header */
 
+
+/* inzio style main */
 main{
     margin-top: 50px;
 }
-
 .box{
     width: calc(100%/3 - 30px);
     float: left;
@@ -47,7 +50,6 @@ main{
     float: left;
     padding-right: 20px;
 }
-
 .img{
     width: 100%;
     display: block;
@@ -70,3 +72,4 @@ main{
     text-decoration: none;
     font-size: smaller;
 }
+/* Fine style main */
